@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern, responsive portfolio website built with Next.js 14, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🚀 Features
 
+- **Modern Tech Stack**: Next.js 14, TypeScript, Tailwind CSS
+- **Responsive Design**: Works perfectly on all devices
+- **Smooth Animations**: Powered by Framer Motion
+- **SEO Optimized**: Built-in metadata and OpenGraph tags
+- **Fast Performance**: Optimized with Next.js Image component
+- **Clean Architecture**: Well-organized component structure
+
+## 📦 Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+## 🎨 Customization
 
-To learn more about Next.js, take a look at the following resources:
+### Personal Information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Edit the `data/portfolio.ts` file to update your personal information:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```typescript
+export const personalInfo: PersonalInfo = {
+  name: "Your Name",
+  title: "Your Title",
+  description: "Your description",
+  // ... other fields
+};
+```
 
-## Deploy on Vercel
+### Projects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add your projects in the same `data/portfolio.ts` file:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```typescript
+export const projects: Project[] = [
+  {
+    id: 1,
+    title: "Your Project",
+    description: "Project description",
+    // ... other fields
+  },
+  // ... more projects
+];
+```
+
+### Images
+
+Add your project images to the `public/projects/` directory and update the image paths in your project data.
+
+### Resume
+
+Add your resume PDF to the `public/` directory as `resume.pdf`.
+
+## 🏗️ Project Structure
+
+```
+portfolio/
+├── app/
+│   ├── layout.tsx      # Root layout
+│   ├── page.tsx        # Home page
+│   └── globals.css     # Global styles
+├── components/
+│   ├── Header.tsx      # Navigation header
+│   ├── Hero.tsx        # Hero section
+│   ├── About.tsx       # About section
+│   ├── Projects.tsx    # Projects showcase
+│   ├── Contact.tsx     # Contact section
+│   └── Footer.tsx      # Footer
+├── data/
+│   └── portfolio.ts    # Portfolio data
+├── types/
+│   └── index.ts        # TypeScript types
+└── public/
+    └── projects/       # Project images
+```
+
+## 📱 Sections
+
+1. **Hero**: Eye-catching introduction with name and title
+2. **About**: Personal description and resume link
+3. **Projects**: Showcase of your best work
+4. **Contact**: Contact information and social links
+5. **Footer**: Copyright and credits
+
+## 🛠️ Technologies Used
+
+- **Next.js 14**: React framework for production
+- **TypeScript**: Type-safe JavaScript
+- **Tailwind CSS**: Utility-first CSS framework
+- **Framer Motion**: Animation library
+- **React Icons**: Icon library
+
+## 📄 License
+
+MIT License - feel free to use this for your own portfolio!
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📧 Contact
+
+For any questions or suggestions, please reach out via the contact form on the website.
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
