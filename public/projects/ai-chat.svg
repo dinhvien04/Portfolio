@@ -1,0 +1,68 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#0f172a"/>
+  <g transform="translate(300,200)">
+    <!-- Chat window -->
+    <rect x="-200" y="-100" width="400" height="200" rx="16" fill="#1e293b"/>
+    <rect x="-200" y="-100" width="400" height="40" rx="16" fill="#334155"/>
+    
+    <!-- Window controls -->
+    <circle cx="-170" cy="-80" r="6" fill="#ef4444"/>
+    <circle cx="-150" cy="-80" r="6" fill="#f59e0b"/>
+    <circle cx="-130" cy="-80" r="6" fill="#10b981"/>
+    
+    <!-- AI brain icon -->
+    <circle cx="150" cy="-80" r="15" fill="#8b5cf6"/>
+    <circle cx="145" cy="-85" r="2" fill="white"/>
+    <circle cx="155" cy="-85" r="2" fill="white"/>
+    <path d="M145,-75 Q150,-70 155,-75" fill="none" stroke="white" stroke-width="1.5"/>
+    
+    <!-- Chat bubbles - User -->
+    <rect x="-180" y="-50" width="120" height="25" rx="12" fill="#3b82f6"/>
+    <text x="-120" y="-32" text-anchor="middle" fill="white" font-family="Arial" font-size="12">
+      Hello AI!
+    </text>
+    
+    <!-- Chat bubbles - AI Response -->
+    <rect x="60" y="-20" width="120" height="25" rx="12" fill="#8b5cf6"/>
+    <text x="120" y="-2" text-anchor="middle" fill="white" font-family="Arial" font-size="12">
+      Hi there! 🤖
+    </text>
+    
+    <!-- TypeScript logo -->
+    <rect x="-180" y="10" width="30" height="30" rx="4" fill="#3178c6"/>
+    <text x="-165" y="30" text-anchor="middle" fill="white" font-family="Arial" font-size="14" font-weight="bold">
+      TS
+    </text>
+    
+    <!-- Vite logo -->
+    <rect x="-140" y="10" width="30" height="30" rx="4" fill="#646cff"/>
+    <text x="-125" y="30" text-anchor="middle" fill="white" font-family="Arial" font-size="12" font-weight="bold">
+      V
+    </text>
+    
+    <!-- Ollama logo -->
+    <circle cx="-105" cy="25" r="15" fill="#10b981"/>
+    <text x="-105" y="30" text-anchor="middle" fill="white" font-family="Arial" font-size="10" font-weight="bold">
+      AI
+    </text>
+    
+    <!-- Typing indicator -->
+    <circle cx="60" cy="50" r="3" fill="#6b7280">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="75" cy="50" r="3" fill="#6b7280">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" begin="0.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="90" cy="50" r="3" fill="#6b7280">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Title -->
+    <text x="0" y="130" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">
+      AI Chat App
+    </text>
+    <text x="0" y="155" text-anchor="middle" fill="#94a3b8" font-family="Arial" font-size="14">
+      TypeScript • Vite • Ollama
+    </text>
+  </g>
+</svg>

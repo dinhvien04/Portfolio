@@ -45,7 +45,7 @@ export default function Home() {
 
       <Footer
         name={personalInfo.name}
-        githubRepo="https://github.com/yourusername/portfolio"
+        githubRepo="https://github.com/dinhvien04/portfolio"
       />
     </>
   );

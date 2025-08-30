@@ -7,7 +7,7 @@ export const personalInfo: PersonalInfo = {
     aboutText: "Tôi là một lập trình viên full-stack đam mê với chuyên môn về các công nghệ web hiện đại. Tôi yêu thích việc tạo ra những ứng dụng đẹp, chức năng và thân thiện với người dùng để giải quyết các vấn đề thực tế. Với nền tảng vững chắc trong cả phát triển front-end và back-end, tôi biến những ý tưởng thành hiện thực thông qua code sạch và hiệu quả.",
     additionalInfo: "Khi không lập trình, bạn có thể tìm thấy tôi đang khám phá các công nghệ mới, đóng góp cho các dự án mã nguồn mở, hoặc chia sẻ kiến thức với cộng đồng developer. Tôi tin vào việc học hỏi liên tục và luôn cập nhật những xu hướng mới nhất trong ngành.",
     resumeUrl: "/resume.pdf",
-    email: "email.cua.ban@example.com",
+    email: "nguyendinhvien2004@gmail.com",
     github: "https://github.com/dinhvien04",
     linkedin: "https://linkedin.com/in/tencuaban",
     twitter: "https://twitter.com/tencuaban",
@@ -18,38 +18,38 @@ export const personalInfo: PersonalInfo = {
 export const projects: Project[] = [
     {
         id: 1,
-        title: "Nền Tảng Thương Mại Điện Tử",
-        description: "Nền tảng thương mại điện tử full-stack được xây dựng với Next.js và Node.js. Các tính năng bao gồm xác thực người dùng, danh mục sản phẩm, giỏ hàng, tích hợp thanh toán và bảng điều khiển quản trị. Thiết kế responsive và tối ưu hóa hiệu suất.",
-        image: "/projects/ecommerce.png",
-        liveUrl: "https://example-ecommerce.com",
-        sourceUrl: "https://github.com/tencuaban/ecommerce",
-        technologies: ["Next.js", "TypeScript", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"]
+        title: "Ứng Dụng Chat Thời Gian Thực",
+        description: "Ứng dụng chat đa tính năng với messaging thời gian thực, xác thực JWT, chat riêng tư, chia sẻ file/hình ảnh/voice message, AI chatbot (Google Gemini), quản trị viên với dashboard, hệ thống quên mật khẩu qua OTP email, emoji picker và dark mode. Được xây dựng với Socket.IO và MongoDB.",
+        image: "/projects/realtime-chat.svg",
+        liveUrl: "https://realtimechat-demo.herokuapp.com",
+        sourceUrl: "https://github.com/dinhvien04/RealTimeChat",
+        technologies: ["Node.js", "Socket.io", "Express", "MongoDB", "JWT", "Google Gemini API", "HTML5", "CSS3"]
     },
     {
         id: 2,
-        title: "Ứng Dụng Chat Thời Gian Thực",
-        description: "Ứng dụng chat thời gian thực với các tính năng như nhắn tin riêng tư, chat nhóm, chia sẻ file và gọi điện/video. Được triển khai bằng WebSockets cho giao tiếp thời gian thực và Redis để quản lý phiên.",
-        image: "/projects/chat-app.png",
-        liveUrl: "https://example-chat.com",
-        sourceUrl: "https://github.com/tencuaban/chat-app",
-        technologies: ["React", "Socket.io", "Express", "PostgreSQL", "Redis", "WebRTC"]
+        title: "OCAW - Website Bán Hàng Máy Tính",
+        description: "Trang web thương mại điện tử chuyên bán phụ kiện và máy tính. Có đầy đủ chức năng quản lý sản phẩm, đơn hàng, giỏ hàng, tài khoản người dùng và admin panel. Tích hợp thanh toán MoMo và xuất hóa đơn PDF.",
+        image: "/projects/ocaw.svg",
+        liveUrl: "https://ocaw-demo.000webhostapp.com",
+        sourceUrl: "https://github.com/dinhvien04/OCAW",
+        technologies: ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "MoMo API", "FPDF"]
     },
     {
         id: 3,
-        title: "Hệ Thống Quản Lý Công Việc",
-        description: "Hệ thống quản lý công việc cộng tác với các tính năng như bảng dự án, phân công nhiệm vụ, theo dõi deadline và hợp tác nhóm. Bao gồm cập nhật thời gian thực và hệ thống thông báo.",
-        image: "/projects/task-manager.png",
-        liveUrl: "https://example-tasks.com",
-        sourceUrl: "https://github.com/tencuaban/task-manager",
-        technologies: ["Vue.js", "Vuex", "Node.js", "MySQL", "Docker", "JWT"]
+        title: "Chat App với AI Integration",
+        description: "Ứng dụng chat hiện đại tích hợp AI chatbot thông qua Ollama backend. Xây dựng với TypeScript, Vite và có giao diện user-friendly. Hỗ trợ chat với các AI model khác nhau và cấu hình ESLint chuyên nghiệp.",
+        image: "/projects/ai-chat.svg",
+        liveUrl: "https://chat-app-demo.netlify.app",
+        sourceUrl: "https://github.com/dinhvien04/chat-app",
+        technologies: ["TypeScript", "Vite", "CSS3", "Ollama", "AI Integration", "ESLint"]
     },
     {
         id: 4,
-        title: "Trình Tạo Nội Dung AI",
-        description: "Nền tảng được hỗ trợ bởi AI tạo ra nội dung chất lượng cao sử dụng các mô hình machine learning. Các tính năng bao gồm tạo bài viết blog, tạo hình ảnh và công cụ tối ưu hóa SEO.",
-        image: "/projects/ai-content.png",
-        liveUrl: "https://example-ai-content.com",
-        sourceUrl: "https://github.com/tencuaban/ai-content",
-        technologies: ["Python", "FastAPI", "React", "OpenAI API", "PostgreSQL", "Redis"]
+        title: "Portfolio Website",
+        description: "Website portfolio cá nhân được xây dựng với Next.js và Tailwind CSS. Có giao diện hiện đại, responsive, animation mượt mà và section kỹ năng với hiệu ứng chuyển động. Tối ưu hóa SEO và hiệu suất tải trang.",
+        image: "/projects/portfolio.svg",
+        liveUrl: "https://dinhvien-portfolio.vercel.app",
+        sourceUrl: "https://github.com/dinhvien04/portfolio",
+        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "React Icons"]
     }
 ];
