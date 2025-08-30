@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 import { HiArrowDown } from "react-icons/hi";
 
 interface HeroProps {
@@ -11,9 +11,10 @@ interface HeroProps {
     github?: string;
     linkedin?: string;
     twitter?: string;
+    facebook?: string;
 }
 
-const Hero = ({ name, title, description, github, linkedin, twitter }: HeroProps) => {
+const Hero = ({ name, title, description, github, linkedin, twitter, facebook }: HeroProps) => {
     return (
         <section className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-50 to-indigo-100 px-6">
             <motion.div
@@ -86,6 +87,16 @@ const Hero = ({ name, title, description, github, linkedin, twitter }: HeroProps
                             className="text-gray-700 hover:text-blue-600 transition-colors duration-300"
                         >
                             <FaTwitter size={30} />
+                        </a>
+                    )}
+                    {facebook && (
+                        <a
+                            href={facebook}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gray-700 hover:text-blue-600 transition-colors duration-300"
+                        >
+                            <FaFacebook size={30} />
                         </a>
                     )}
                 </motion.div>

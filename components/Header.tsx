@@ -18,6 +18,7 @@ const Header = () => {
 
     const menuItems = [
         { name: "Giới Thiệu", href: "#about" },
+        { name: "Kỹ Năng", href: "#skills" },
         { name: "Dự Án", href: "#projects" },
         { name: "Liên Hệ", href: "#contact" },
     ];

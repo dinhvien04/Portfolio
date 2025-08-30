@@ -1,17 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
 
 interface ContactProps {
     email: string;
     github?: string;
     linkedin?: string;
     twitter?: string;
+    facebook?: string;
     callToAction?: string;
 }
 
-const Contact = ({ email, github, linkedin, twitter, callToAction = "Hãy cùng làm việc với nhau!" }: ContactProps) => {
+const Contact = ({ email, github, linkedin, twitter, facebook, callToAction = "Hãy cùng làm việc với nhau!" }: ContactProps) => {
     return (
         <section id="contact" className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
             <div className="container mx-auto px-6">
@@ -94,6 +95,18 @@ const Contact = ({ email, github, linkedin, twitter, callToAction = "Hãy cùng 
                                     className="text-gray-700 hover:text-blue-600 transition-colors duration-300"
                                 >
                                     <FaTwitter size={35} />
+                                </motion.a>
+                            )}
+                            {facebook && (
+                                <motion.a
+                                    href={facebook}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    whileHover={{ scale: 1.2, rotate: -5 }}
+                                    whileTap={{ scale: 0.9 }}
+                                    className="text-gray-700 hover:text-blue-600 transition-colors duration-300"
+                                >
+                                    <FaFacebook size={35} />
                                 </motion.a>
                             )}
                         </div>

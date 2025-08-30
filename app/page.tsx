@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -19,6 +20,7 @@ export default function Home() {
           github={personalInfo.github}
           linkedin={personalInfo.linkedin}
           twitter={personalInfo.twitter}
+          facebook={personalInfo.facebook}
         />
 
         <About
@@ -27,6 +29,8 @@ export default function Home() {
           resumeUrl={personalInfo.resumeUrl}
         />
 
+        <Skills />
+
         <Projects projects={projects} />
 
         <Contact
@@ -34,6 +38,7 @@ export default function Home() {
           github={personalInfo.github}
           linkedin={personalInfo.linkedin}
           twitter={personalInfo.twitter}
+          facebook={personalInfo.facebook}
           callToAction="Hãy cùng xây dựng điều gì đó tuyệt vời!"
         />
       </main>

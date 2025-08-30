@@ -21,3 +21,9 @@ export interface PersonalInfo {
     twitter?: string;
     facebook?: string;
 }
+
+export interface Skill {
+    name: string;
+    icon: string;
+    color: string;
+}
