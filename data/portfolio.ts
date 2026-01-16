@@ -20,7 +20,7 @@ export const projects: Project[] = [
         id: 1,
         title: "Ứng Dụng Chat Thời Gian Thực",
         description: "Ứng dụng chat đa tính năng với messaging thời gian thực, xác thực JWT, chat riêng tư, chia sẻ file/hình ảnh/voice message, AI chatbot (Google Gemini), quản trị viên với dashboard, hệ thống quên mật khẩu qua OTP email, emoji picker và dark mode. Được xây dựng với Socket.IO và MongoDB.",
-        image: "/projects/realtime-chat.svg",
+        image: "/projects/Chat.png",
         liveUrl: "https://realtimechat-demo.herokuapp.com",
         sourceUrl: "https://github.com/dinhvien04/RealTimeChat",
         technologies: ["Node.js", "Socket.io", "Express", "MongoDB", "JWT", "Google Gemini API", "HTML5", "CSS3"]
@@ -29,7 +29,7 @@ export const projects: Project[] = [
         id: 2,
         title: "Sống Vui Tuổi Vàng",
         description: "Nền tảng web toàn diện kết nối người cao tuổi với các hoạt động sức khỏe, giải trí và dịch vụ chăm sóc chuyên nghiệp tại Quy Nhơn. Hệ thống tích hợp đặt lịch, thanh toán, quản lý gói dịch vụ và Trợ lý AI (MegaLLM) tư vấn 24/7.",
-        image: "/projects/songvuituoivang.svg",
+        image: "/projects/Vang.png",
         liveUrl: "https://songvuituoivang.demo.com",
         sourceUrl: "https://github.com/dinhvien04/SongVuiTuoiVang",
         technologies: ["React 19", "TypeScript", "Node.js", "MongoDB", "MegaLLM", "AI Integration"]
@@ -38,7 +38,7 @@ export const projects: Project[] = [
         id: 3,
         title: "Orchard - Tìm kiếm & Nhận diện trái cây AI",
         description: "Hệ thống tìm kiếm và nhận diện 358 loại trái cây Việt Nam thông qua đa phương thức: Từ khóa/Mô tả (Semantic Search), Hình ảnh (Image Recognition với EfficientNet) và Giọng nói. Tích hợp Chatbot AI tư vấn theo mô hình RAG và tính năng so sánh chi tiết.",
-        image: "/projects/orchard.svg",
+        image: "/projects/Trai.png",
         liveUrl: "https://orchard.demo.com",
         sourceUrl: "https://github.com/dinhvien04/SearchTraiCay",
         technologies: ["Flask", "Python", "Qdrant", "SentenceTransformers", "EfficientNet", "RAG", "AI"]
@@ -47,7 +47,7 @@ export const projects: Project[] = [
         id: 4,
         title: "DocReader AI Studio",
         description: "Hệ thống All-in-one hỗ trợ chuyển đổi văn bản thành giọng nói (TTS), dịch thuật đa ngôn ngữ và tóm tắt văn bản thông minh. Tích hợp Azure Speech Service cho giọng đọc Neural tự nhiên (Việt/Anh) và MegaLLM. Hỗ trợ upload file đa định dạng, Resume playback, xác thực OTP và Admin Dashboard.",
-        image: "/projects/docreader.svg",
+        image: "/projects/DocReader.png",
         liveUrl: "https://docreader.demo.com",
         sourceUrl: "https://github.com/dinhvien04/DocReaderAI",
         technologies: ["PHP", "MySQL", "Azure Speech Service", "MegaLLM", "TTS", "PDF", "DOCX"]
