@@ -27,29 +27,29 @@ export const projects: Project[] = [
     },
     {
         id: 2,
-        title: "OCAW - Website Bán Hàng Máy Tính",
-        description: "Trang web thương mại điện tử chuyên bán phụ kiện và máy tính. Có đầy đủ chức năng quản lý sản phẩm, đơn hàng, giỏ hàng, tài khoản người dùng và admin panel. Tích hợp thanh toán MoMo và xuất hóa đơn PDF.",
-        image: "/projects/ocaw.svg",
-        liveUrl: "https://ocaw-demo.000webhostapp.com",
-        sourceUrl: "https://github.com/dinhvien04/OCAW",
-        technologies: ["PHP", "MySQL", "HTML5", "CSS3", "JavaScript", "MoMo API", "FPDF"]
+        title: "Sống Vui Tuổi Vàng",
+        description: "Nền tảng web toàn diện kết nối người cao tuổi với các hoạt động sức khỏe, giải trí và dịch vụ chăm sóc chuyên nghiệp tại Quy Nhơn. Hệ thống tích hợp đặt lịch, thanh toán, quản lý gói dịch vụ và Trợ lý AI (MegaLLM) tư vấn 24/7.",
+        image: "/projects/songvuituoivang.svg",
+        liveUrl: "https://songvuituoivang.demo.com",
+        sourceUrl: "https://github.com/dinhvien04/SongVuiTuoiVang",
+        technologies: ["React 19", "TypeScript", "Node.js", "MongoDB", "MegaLLM", "AI Integration"]
     },
     {
         id: 3,
-        title: "Chat App với AI Integration",
-        description: "Ứng dụng chat hiện đại tích hợp AI chatbot thông qua Ollama backend. Xây dựng với TypeScript, Vite và có giao diện user-friendly. Hỗ trợ chat với các AI model khác nhau và cấu hình ESLint chuyên nghiệp.",
-        image: "/projects/ai-chat.svg",
-        liveUrl: "https://chat-app-demo.netlify.app",
-        sourceUrl: "https://github.com/dinhvien04/chat-app",
-        technologies: ["TypeScript", "Vite", "CSS3", "Ollama", "AI Integration", "ESLint"]
+        title: "Orchard - Tìm kiếm & Nhận diện trái cây AI",
+        description: "Hệ thống tìm kiếm và nhận diện 358 loại trái cây Việt Nam thông qua đa phương thức: Từ khóa/Mô tả (Semantic Search), Hình ảnh (Image Recognition với EfficientNet) và Giọng nói. Tích hợp Chatbot AI tư vấn theo mô hình RAG và tính năng so sánh chi tiết.",
+        image: "/projects/orchard.svg",
+        liveUrl: "https://orchard.demo.com",
+        sourceUrl: "https://github.com/dinhvien04/SearchTraiCay",
+        technologies: ["Flask", "Python", "Qdrant", "SentenceTransformers", "EfficientNet", "RAG", "AI"]
     },
     {
         id: 4,
-        title: "Portfolio Website",
-        description: "Website portfolio cá nhân được xây dựng với Next.js và Tailwind CSS. Có giao diện hiện đại, responsive, animation mượt mà và section kỹ năng với hiệu ứng chuyển động. Tối ưu hóa SEO và hiệu suất tải trang.",
-        image: "/projects/portfolio.svg",
-        liveUrl: "https://dinhvien-portfolio.vercel.app",
-        sourceUrl: "https://github.com/dinhvien04/portfolio",
-        technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "React Icons"]
+        title: "DocReader AI Studio",
+        description: "Hệ thống All-in-one hỗ trợ chuyển đổi văn bản thành giọng nói (TTS), dịch thuật đa ngôn ngữ và tóm tắt văn bản thông minh. Tích hợp Azure Speech Service cho giọng đọc Neural tự nhiên (Việt/Anh) và MegaLLM. Hỗ trợ upload file đa định dạng, Resume playback, xác thực OTP và Admin Dashboard.",
+        image: "/projects/docreader.svg",
+        liveUrl: "https://docreader.demo.com",
+        sourceUrl: "https://github.com/dinhvien04/DocReaderAI",
+        technologies: ["PHP", "MySQL", "Azure Speech Service", "MegaLLM", "TTS", "PDF", "DOCX"]
     }
 ];
