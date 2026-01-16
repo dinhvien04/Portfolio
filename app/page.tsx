@@ -26,6 +26,7 @@ export default function Home() {
         <About
           aboutText={personalInfo.aboutText}
           additionalInfo={personalInfo.additionalInfo}
+          profileImage={personalInfo.profileImage}
           resumeUrl={personalInfo.resumeUrl}
         />
 

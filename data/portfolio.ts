@@ -6,6 +6,7 @@ export const personalInfo: PersonalInfo = {
     description: "Lập trình viên đam mê tạo ra những trải nghiệm web tuyệt vời với công nghệ hiện đại",
     aboutText: "Tôi là một lập trình viên full-stack đam mê với chuyên môn về các công nghệ web hiện đại. Tôi yêu thích việc tạo ra những ứng dụng đẹp, chức năng và thân thiện với người dùng để giải quyết các vấn đề thực tế. Với nền tảng vững chắc trong cả phát triển front-end và back-end, tôi biến những ý tưởng thành hiện thực thông qua code sạch và hiệu quả.",
     additionalInfo: "Khi không lập trình, bạn có thể tìm thấy tôi đang khám phá các công nghệ mới, đóng góp cho các dự án mã nguồn mở, hoặc chia sẻ kiến thức với cộng đồng developer. Tôi tin vào việc học hỏi liên tục và luôn cập nhật những xu hướng mới nhất trong ngành.",
+    profileImage: "/projects/Vien.JPG",
     resumeUrl: "/resume.pdf",
     email: "nguyendinhvien2004@gmail.com",
     github: "https://github.com/dinhvien04",

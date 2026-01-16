@@ -14,6 +14,7 @@ export interface PersonalInfo {
     description: string;
     aboutText: string;
     additionalInfo?: string;
+    profileImage?: string;
     resumeUrl: string;
     email: string;
     github: string;
