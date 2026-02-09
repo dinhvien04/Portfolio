@@ -57,26 +57,6 @@ export const projects: Project[] = [
 
 export const certifications: Certification[] = [
     {
-        id: "google-educator-level-2",
-        name: "Google Certified Educator Level 2",
-        description: "Chứng nhận kỹ năng triển khai công nghệ nâng cao với các công cụ Google trong lớp học",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=h2a5gq8r&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2026-02-09",
-        validUntil: "2029-02-09",
-        credentialUrl: "https://www.credential.net/4c7f463e-7337-4257-b50c-f7bf857ffc8b"
-    },
-    {
-        id: "google-educator-level-1",
-        name: "Google Certified Educator Level 1",
-        description: "Chứng nhận kỹ năng cơ bản sử dụng các công cụ Google trong giáo dục",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=wqwejoti&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2026-02-08",
-        validUntil: "2029-02-08",
-        credentialUrl: "https://www.credential.net/44d642a8-22bf-4822-93d9-f9f32e177419"
-    },
-    {
         id: "gemini-certified-educator",
         name: "Gemini Certified Educator",
         description: "Chứng nhận kiến thức về AI tạo sinh và khả năng sử dụng Gemini trong giáo dục",
@@ -105,5 +85,25 @@ export const certifications: Certification[] = [
         validFrom: "2026-02-08",
         validUntil: "2029-02-08",
         credentialUrl: "https://www.credential.net/33304f06-3cde-45af-bb9a-4add83769b6e"
+    },
+      {
+        id: "google-educator-level-1",
+        name: "Google Certified Educator Level 1",
+        description: "Chứng nhận kỹ năng cơ bản sử dụng các công cụ Google trong giáo dục",
+        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=wqwejoti&variant=medium",
+        issuer: "Google for Education",
+        validFrom: "2026-02-08",
+        validUntil: "2029-02-08",
+        credentialUrl: "https://www.credential.net/44d642a8-22bf-4822-93d9-f9f32e177419"
+    },
+        {
+        id: "google-educator-level-2",
+        name: "Google Certified Educator Level 2",
+        description: "Chứng nhận kỹ năng triển khai công nghệ nâng cao với các công cụ Google trong lớp học",
+        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=h2a5gq8r&variant=medium",
+        issuer: "Google for Education",
+        validFrom: "2026-02-09",
+        validUntil: "2029-02-09",
+        credentialUrl: "https://www.credential.net/4c7f463e-7337-4257-b50c-f7bf857ffc8b"
     }
 ];
