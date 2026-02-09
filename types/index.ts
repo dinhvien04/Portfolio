@@ -28,3 +28,14 @@ export interface Skill {
     icon: string;
     color: string;
 }
+
+export interface Certification {
+    id: string;
+    name: string;
+    description: string;
+    image: string;
+    issuer: string;
+    validFrom: string;
+    validUntil: string;
+    credentialUrl: string;
+}

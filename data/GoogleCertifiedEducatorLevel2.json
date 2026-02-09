@@ -1,0 +1,55 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "id": "https://www.credential.net/4c7f463e-7337-4257-b50c-f7bf857ffc8b",
+  "name": "Google Certified Educator Level 2",
+  "description": "If you're an educator who knows how to use Google tools in the classroom, this certification proves your proficiency.\n\nFor educators who are super users and enthusiasts of Google’s tools in the classroom, this Level 2 certification validates advanced technology implementation skills. \n\nIndividuals who have achieved this certification may publicize their status with their personalized certificate and badge. Always label your status with the achieved level: Google Certified Educator Level 2. This certification is valid for 36 months.",
+  "image": {
+    "id": "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=h2a5gq8r&variant=medium",
+    "type": "Image"
+  },
+  "issuer": {
+    "type": "Profile",
+    "id": "did:web:api.accredible.com:v1:verifiable_credential:organizations:17181",
+    "name": "Google for Education",
+    "url": "https://edu.google.com/"
+  },
+  "validFrom": "2026-02-09T00:00:00Z",
+  "validUntil": "2029-02-09T00:00:00Z",
+  "credentialSubject": {
+    "type": "AchievementSubject",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "hashed": true,
+        "identityHash": "sha256$66b40d195637c018e679723b44dab42697b05d41ac2d6eada3833b168560ae96",
+        "identityType": "emailAddress",
+        "salt": "452f47f79aa6d3492111f1fb41f9cd44"
+      }
+    ],
+    "achievement": {
+      "id": "https://www.credential.net/group/85660",
+      "type": "Achievement",
+      "achievementType": "Achievement",
+      "name": "Google Certified Educator Level 2",
+      "description": "If you're an educator who knows how to use Google tools in the classroom, this certification proves your proficiency.\n\nFor educators who are super users and enthusiasts of Google’s tools in the classroom, this Level 2 certification validates advanced technology implementation skills. \n\nIndividuals who have achieved this certification may publicize their status with their personalized certificate and badge. Always label your status with the achieved level: Google Certified Educator Level 2. This certification is valid for 36 months.",
+      "criteria": {
+        "narrative": "https://teachercenter.withgoogle.com/certification"
+      }
+    }
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2026-02-09T16:26:59Z",
+    "verificationMethod": "did:web:api.accredible.com:v1:verifiable_credential:organizations:17181#ad237a70-dc11-11f0-83da-739ba36dc372",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4BgWP9Jp7uzQpTmLVTuq59LhQxDkKzdT9frk8tusDDCL8MdQEL7VD3JCduantbtv4ar86QwqFJkowLAoWNAXj2gz"
+  }
+}

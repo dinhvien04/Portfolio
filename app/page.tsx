@@ -4,8 +4,9 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
+import Certifications from "@/components/Certifications";
 import Footer from "@/components/Footer";
-import { personalInfo, projects } from "@/data/portfolio";
+import { personalInfo, projects, certifications } from "@/data/portfolio";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
         <Skills />
 
         <Projects projects={projects} />
+
+        <Certifications certifications={certifications} />
 
         <Contact
           email={personalInfo.email}

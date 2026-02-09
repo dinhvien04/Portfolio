@@ -1,0 +1,55 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "id": "https://www.credential.net/25a4a432-cdea-4fa9-a777-eafd458caec9",
+  "name": "Gemini Certified Educator",
+  "description": "A Google Certified Gemini Educator can articulate and demonstrate foundational knowledge of generative AI concepts and the core features and capabilities of Gemini within the educational context.Individuals who have achieved this certification may publicize their status with their personalized certificate and badge. This certification is valid for 3 years.",
+  "image": {
+    "id": "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=ktu46k1e&variant=medium",
+    "type": "Image"
+  },
+  "issuer": {
+    "type": "Profile",
+    "id": "did:web:api.accredible.com:v1:verifiable_credential:organizations:17181",
+    "name": "Google for Education",
+    "url": "https://edu.google.com/"
+  },
+  "validFrom": "2025-12-14T00:00:00Z",
+  "validUntil": "2029-02-08T00:00:00Z",
+  "credentialSubject": {
+    "type": "AchievementSubject",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "hashed": true,
+        "identityHash": "sha256$5d9a0f4c1fa24e09d02fbf81669065c7f00709ee7fa9b29a688d01fc62ae59c2",
+        "identityType": "emailAddress",
+        "salt": "e9c7b5aad998548fc9a46c565222cff6"
+      }
+    ],
+    "achievement": {
+      "id": "https://www.credential.net/group/735980",
+      "type": "Achievement",
+      "achievementType": "Achievement",
+      "name": "Gemini Certified Educator",
+      "description": "A Google Certified Gemini Educator can articulate and demonstrate foundational knowledge of generative AI concepts and the core features and capabilities of Gemini within the educational context.Individuals who have achieved this certification may publicize their status with their personalized certificate and badge. This certification is valid for 3 years.",
+      "criteria": {
+        "narrative": "https://edu.google.com/intl/ALL_us/learning-center/certifications/"
+      }
+    }
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2026-02-09T16:38:50Z",
+    "verificationMethod": "did:web:api.accredible.com:v1:verifiable_credential:organizations:17181#ad237a70-dc11-11f0-83da-739ba36dc372",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z4F5bkVZ4K7zJAeasVwBPvhAZ1RYnx8tR1oyNY71NThT1Lsc4avvnQj6yYjsuCbwfi5nL7ECoLvuNojmb3pX6CBqt"
+  }
+}
