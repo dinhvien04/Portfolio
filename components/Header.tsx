@@ -20,6 +20,7 @@ const Header = () => {
         { name: "Giới Thiệu", href: "#about" },
         { name: "Kỹ Năng", href: "#skills" },
         { name: "Dự Án", href: "#projects" },
+        { name: "Chứng Chỉ", href: "#certifications" },
         { name: "Liên Hệ", href: "#contact" },
     ];
 
