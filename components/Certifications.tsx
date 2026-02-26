@@ -2,7 +2,7 @@
 
 import { Certification } from "@/types";
 import { motion } from "framer-motion";
-import { FaAward, FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface CertificationsProps {
     certifications: Certification[];
@@ -23,7 +23,7 @@ export default function Certifications({ certifications }: CertificationsProps) 
                         Chứng Chỉ
                     </h2>
                     <p className="text-gray-600 max-w-2xl mx-auto">
-                        Các chứng chỉ chuyên môn từ Google for Education
+                        Các chứng chỉ chuyên môn về phát triển phần mềm và AI
                     </p>
                 </motion.div>
 
@@ -59,7 +59,7 @@ export default function Certifications({ certifications }: CertificationsProps) 
                                 </div>
 
                                 <div className="text-xs text-gray-500 mb-4">
-                                    Hiệu lực: {new Date(cert.validFrom).toLocaleDateString('vi-VN')} - {new Date(cert.validUntil).toLocaleDateString('vi-VN')}
+                                    Hiệu lực: {cert.validFrom} - {cert.validUntil}
                                 </div>
 
                                 <a

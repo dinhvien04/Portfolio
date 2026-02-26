@@ -57,53 +57,23 @@ export const projects: Project[] = [
 
 export const certifications: Certification[] = [
     {
-        id: "gemini-certified-educator",
-        name: "Gemini Certified Educator",
-        description: "Chứng nhận kiến thức về AI tạo sinh và khả năng sử dụng Gemini trong giáo dục",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=ktu46k1e&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2025-12-14",
-        validUntil: "2029-02-08",
-        credentialUrl: "https://www.credential.net/25a4a432-cdea-4fa9-a777-eafd458caec9"
+        id: "meta-fullstack-developer",
+        name: "Meta Full Stack Developer",
+        description: "Chứng chỉ phát triển Full Stack từ Meta, bao gồm React, Node.js, và các công nghệ web hiện đại",
+        image: "/certificates/MetaFullStackDeveloper.png",
+        issuer: "Meta via Coursera",
+        validFrom: "2026",
+        validUntil: "Vĩnh viễn",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/8HLCVP2CANML"
     },
     {
-        id: "gemini-certified-faculty",
-        name: "Gemini Certified Faculty",
-        description: "Chứng nhận kiến thức về AI tạo sinh và Gemini dành cho giảng viên",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=x82w41hw&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2026-02-08",
-        validUntil: "2029-02-08",
-        credentialUrl: "https://www.credential.net/42075b5e-1c16-4a6c-9e6e-72a552701fa7"
-    },
-    {
-        id: "gemini-certified-student",
-        name: "Gemini Certified University Student",
-        description: "Chứng nhận kiến thức về AI tạo sinh và Gemini dành cho sinh viên đại học",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=sbuajy3n&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2026-02-08",
-        validUntil: "2029-02-08",
-        credentialUrl: "https://www.credential.net/33304f06-3cde-45af-bb9a-4add83769b6e"
-    },
-      {
-        id: "google-educator-level-1",
-        name: "Google Certified Educator Level 1",
-        description: "Chứng nhận kỹ năng cơ bản sử dụng các công cụ Google trong giáo dục",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=wqwejoti&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2026-02-08",
-        validUntil: "2029-02-08",
-        credentialUrl: "https://www.credential.net/44d642a8-22bf-4822-93d9-f9f32e177419"
-    },
-        {
-        id: "google-educator-level-2",
-        name: "Google Certified Educator Level 2",
-        description: "Chứng nhận kỹ năng triển khai công nghệ nâng cao với các công cụ Google trong lớp học",
-        image: "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=h2a5gq8r&variant=medium",
-        issuer: "Google for Education",
-        validFrom: "2026-02-09",
-        validUntil: "2029-02-09",
-        credentialUrl: "https://www.credential.net/4c7f463e-7337-4257-b50c-f7bf857ffc8b"
+        id: "google-ai",
+        name: "Google AI Essentials",
+        description: "Chứng chỉ về các kiến thức cơ bản về AI và Machine Learning từ Google",
+        image: "/certificates/GoogleAI.png",
+        issuer: "Google via Coursera",
+        validFrom: "2026",
+        validUntil: "Vĩnh viễn",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/specialization/XCAOLHIACQXL"
     }
 ];
