@@ -77,6 +77,16 @@ export const certifications: Certification[] = [
         credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/WSYDCEY15BU4"
     },
     {
+        id: "meta-backend-developer",
+        name: "Meta Back-End Developer",
+        description: "Chứng chỉ phát triển Back-End từ Meta, chuyên sâu về API, Database, và Server-side technologies",
+        image: "/certificates/MetaBackEndDeveloper.png",
+        issuer: "Meta via Coursera",
+        validFrom: "2026",
+        validUntil: "Vĩnh viễn",
+        credentialUrl: "https://www.coursera.org/account/accomplishments/professional-cert/LD7VSNINBEYF"
+    },
+    {
         id: "google-ai",
         name: "Google AI Essentials",
         description: "Chứng chỉ về các kiến thức cơ bản về AI và Machine Learning từ Google",
